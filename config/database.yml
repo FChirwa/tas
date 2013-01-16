@@ -3,7 +3,7 @@ production:
   Encoding: utf8
   Reconnect: false
   username: root
-  database: likuni
+  database: mwasabila
   password: password
   host: localhost
   pool: 2000000
@@ -13,7 +13,7 @@ development:
   Encoding: utf8
   Reconnect: false
   username: root
-  database: mwanza
+  database: mwasabila
   password: password
   host: localhost
   timeout: 5000
