@@ -3000,3 +3000,3143 @@ Rendering rescues/layout (not_found)
 Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 22:50:52) [GET]
 Rendering authentication/index
 Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index to html (for 127.0.0.1 at 2013-01-16 22:53:02) [GET]
+  Parameters: {"id"=>"blog"}
+Rendering authentication/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication/index/blog.html]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:53:02) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index/images/earth.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:53:02) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index/images/spacecraft-small.jpg" with {:method=>:get}):
+  
+
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:53:02) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index/images/astronaut.jpg" with {:method=>:get}):
+  
+
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:53:02) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index/images/space-shuttle.jpg" with {:method=>:get}):
+  
+
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:53:02) [GET]
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::RoutingError (No route matches "/authentication/index/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 22:53:32) [GET]
+Rendering authentication/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index to html (for 127.0.0.1 at 2013-01-16 22:54:11) [GET]
+  Parameters: {"id"=>"contact"}
+Rendering authentication/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication/index/contact.html]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:54:11) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:54:11) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index/images/astronaut.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:54:11) [GET]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:54:11) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index/images/space-shuttle.jpg" with {:method=>:get}):
+  
+
+
+ActionController::RoutingError (No route matches "/authentication/index/images/spacecraft-small.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:54:11) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index/images/earth.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 22:57:45) [GET]
+Rendering authentication/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 22:57:48) [GET]
+Rendering authentication/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 22:57:50) [GET]
+Rendering authentication/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication]
+
+
+Processing AuthenticationController#about (for 127.0.0.1 at 2013-01-16 22:57:54) [GET]
+Rendering authentication/about
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/about]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:57:54) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:57:54) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 22:57:54) [GET]
+  Parameters: {"id"=>"logo"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:57:54) [GET]
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:57:54) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:57:54) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:57:54) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:57:59) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 22:59:12) [GET]
+Rendering authentication/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication]
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+Rendering authentication/contact
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+  Parameters: {"id"=>"astronaut"}
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:59:15) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 22:59:19) [GET]
+Rendering authentication/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication]
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+Rendering authentication/contact
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 22:59:21) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#about (for 127.0.0.1 at 2013-01-16 22:59:27) [GET]
+Rendering authentication/about
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/about]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:27) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:27) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:27) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:27) [GET]
+  Parameters: {"id"=>"earth-small"}
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:27) [GET]
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 22:59:27) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 22:59:27) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#about (for 127.0.0.1 at 2013-01-16 23:00:29) [GET]
+Rendering authentication/about
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/about]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:29) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:29) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:29) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:29) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:29) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:29) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:00:29) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 23:00:32) [GET]
+Rendering authentication/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/authentication]
+
+
+Processing AuthenticationController#blog (for 127.0.0.1 at 2013-01-16 23:00:37) [GET]
+Rendering authentication/blog
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/authentication/blog]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:37) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:37) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:37) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:37) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:37) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:00:37) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:00:37) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#blog (for 127.0.0.1 at 2013-01-16 23:01:21) [GET]
+Rendering authentication/blog
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/blog]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:01:21) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:21) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:21) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:21) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:21) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:21) [GET]
+  Parameters: {"id"=>"earth-small"}
+  Parameters: {"id"=>"astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:21) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#gallery (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+Rendering authentication/gallery
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/gallery]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+Rendering rescues/layout (not_found)
+  Parameters: {"id"=>"thumbnail-spacecraft"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+  Parameters: {"id"=>"astronaut-large"}
+  Parameters: {"id"=>"thumbnail-astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+  Parameters: {"id"=>"thumbnail-earth"}
+  Parameters: {"id"=>"thumbnail-craft"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+  Parameters: {"id"=>"astronaut"}
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:23) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+  Parameters: {"id"=>"space-shuttle"}
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#gallery (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+Rendering authentication/gallery
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/gallery]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+Rendering rescues/layout (not_found)
+  Parameters: {"id"=>"astronaut-large"}
+  Parameters: {"id"=>"thumbnail-spacecraft"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+  Parameters: {"id"=>"thumbnail-astronaut"}
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+  Parameters: {"id"=>"thumbnail-earth"}
+  Parameters: {"id"=>"astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+Rendering rescues/layout (not_found)
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+  Parameters: {"id"=>"thumbnail-craft"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+  Parameters: {"id"=>"space-shuttle"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:54) [GET]
+Rendering rescues/layout (not_found)
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:01:57) [GET]
+Rendering authentication/contact
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:57) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:57) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:57) [GET]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:01:57) [GET]
+  Parameters: {"id"=>"logo"}
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:57) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+  Parameters: {"id"=>"earth"}
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:58) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:01:58) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:01:58) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:01:58) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#blog (for 127.0.0.1 at 2013-01-16 23:02:01) [GET]
+Rendering authentication/blog
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/blog]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:01) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:01) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:01) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:01) [GET]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:02:01) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:01) [GET]
+  Parameters: {"id"=>"logo"}
+  Parameters: {"id"=>"astronaut"}
+  Parameters: {"id"=>"earth-small"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:01) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 23:02:06) [GET]
+Rendering authentication/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/authentication]
+
+
+Processing AuthenticationController#blog (for 127.0.0.1 at 2013-01-16 23:02:13) [GET]
+Rendering authentication/blog
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/blog]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:13) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:02:13) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:13) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:13) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:13) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:13) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:14) [GET]
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+Rendering authentication/contact
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+  Parameters: {"id"=>"astronaut"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:02:17) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#gallery (for 127.0.0.1 at 2013-01-16 23:02:56) [GET]
+Rendering authentication/gallery
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/gallery]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:56) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:02:56) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:56) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:56) [GET]
+  Parameters: {"id"=>"astronaut-large"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:56) [GET]
+  Parameters: {"id"=>"thumbnail-earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:56) [GET]
+  Parameters: {"id"=>"thumbnail-astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:56) [GET]
+  Parameters: {"id"=>"thumbnail-spacecraft"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:56) [GET]
+  Parameters: {"id"=>"thumbnail-craft"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:57) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:57) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:57) [GET]
+  Parameters: {"id"=>"earth"}
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:02:57) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:03:12) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/gallery.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#gallery (for 127.0.0.1 at 2013-01-16 23:04:49) [GET]
+Rendering authentication/gallery
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/gallery]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:49) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:49) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:49) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:49) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:49) [GET]
+  Parameters: {"id"=>"thumbnail-spacecraft"}
+  Parameters: {"id"=>"astronaut-large"}
+  Parameters: {"id"=>"thumbnail-astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:50) [GET]
+  Parameters: {"id"=>"thumbnail-earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:04:50) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:50) [GET]
+  Parameters: {"id"=>"thumbnail-craft"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:50) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:50) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:50) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:04:50) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:05:04) [GET]
+
+ActionController::RoutingError (No route matches "/authentication/index.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#blog (for 127.0.0.1 at 2013-01-16 23:06:01) [GET]
+Rendering authentication/blog
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/blog]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:01) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:01) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:01) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:01) [GET]
+  Parameters: {"id"=>"astronaut"}
+  Parameters: {"id"=>"earth"}
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:06:01) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:01) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:01) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#about (for 127.0.0.1 at 2013-01-16 23:06:05) [GET]
+Rendering authentication/about
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/about]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:06:05) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:05) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:05) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:05) [GET]
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:05) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:05) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:05) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:06:09) [GET]
+Rendering authentication/contact
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:10) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:06:10) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:10) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:10) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:10) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:10) [GET]
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:06:10) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:06:10) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:06:10) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:06:28) [POST]
+
+ActionController::RoutingError (No route matches "/authentication/index.html" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#about (for 127.0.0.1 at 2013-01-16 23:07:23) [GET]
+Rendering authentication/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication/about]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:23) [GET]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:07:23) [GET]
+  Parameters: {"id"=>"logo"}
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:23) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:23) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:23) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:23) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:23) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#about (for 127.0.0.1 at 2013-01-16 23:07:26) [GET]
+Rendering authentication/about
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/about]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:26) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:26) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:26) [GET]
+  Parameters: {"id"=>"earth-small"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:07:26) [GET]
+  Parameters: {"id"=>"logo"}
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:26) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:26) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:26) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:07:30) [GET]
+Rendering authentication/contact
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:31) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:31) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:31) [GET]
+  Parameters: {"id"=>"earth"}
+  Parameters: {"id"=>"spacecraft-small"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:31) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:31) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:07:31) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:07:31) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:07:31) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:07:31) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+Rendering authentication/contact
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:09:02) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 23:09:07) [GET]
+Rendering authentication/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication]
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+Rendering authentication/contact
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:09:12) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+Rendering authentication/contact
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:10:09) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:10:11) [POST]
+
+ActionController::RoutingError (No route matches "/authentication/index.html" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+Rendering authentication/contact
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+  Parameters: {"id"=>"earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+  Parameters: {"id"=>"astronaut"}
+  Parameters: {"id"=>"spacecraft-small"}
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+  Parameters: {"id"=>"logo"}
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+Rendering rescues/layout (not_found)
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:10:27) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:10:30) [POST]
+
+ActionController::RoutingError (No route matches "/authentication/index.html" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+Rendering authentication/contact
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:11:50) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:11:55) [POST]
+
+ActionController::RoutingError (No route matches "/authentification" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:12:33) [GET]
+Rendering authentication/contact
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:12:33) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:12:33) [GET]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:12:33) [GET]
+  Parameters: {"id"=>"earth"}
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:12:33) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:12:33) [GET]
+Rendering rescues/layout (not_found)
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:12:33) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:12:33) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:12:34) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:12:34) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:12:37) [POST]
+
+ActionController::RoutingError (No route matches "/authentification" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+Rendering authentication/contact
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+  Parameters: {"id"=>"astronaut"}
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:13:11) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:13:14) [POST]
+
+ActionController::RoutingError (No route matches "/authentification/index" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+Rendering authentication/contact
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+  Parameters: {"id"=>"earth-small"}
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:14:02) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 23:14:05) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (41.7ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+Rendering authentication/contact
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:14:25) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 23:14:41) [GET]
+Rendering authentication/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/authentication]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 23:14:46) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (101.3ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AuthenticationController#about (for 127.0.0.1 at 2013-01-16 23:15:08) [GET]
+Rendering authentication/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/authentication/about]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:08) [GET]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:15:08) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:08) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:08) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:08) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:08) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:09) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#blog (for 127.0.0.1 at 2013-01-16 23:15:11) [GET]
+Rendering authentication/blog
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/authentication/blog]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:11) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:11) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:11) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:11) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:11) [GET]
+  Parameters: {"id"=>"earth-small"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+Rendering rescues/layout (not_found)
+  Parameters: {"id"=>"earth"}
+  Parameters: {"id"=>"spacecraft-small"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:15:11) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:12) [GET]
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+  Parameters: {"id"=>"space-shuttle"}
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#gallery (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+Rendering authentication/gallery
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/authentication/gallery]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+  Parameters: {"id"=>"earth-small"}
+  Parameters: {"id"=>"thumbnail-spacecraft"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+  Parameters: {"id"=>"astronaut-large"}
+  Parameters: {"id"=>"thumbnail-astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+  Parameters: {"id"=>"thumbnail-earth"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+  Parameters: {"id"=>"earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:14) [GET]
+  Parameters: {"id"=>"thumbnail-craft"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:15) [GET]
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:15) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#contact (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+Rendering authentication/contact
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/authentication/contact]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+  Parameters: {"id"=>"astronaut"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+  Parameters: {"id"=>"spacecraft-small"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+  Parameters: {"id"=>"earth"}
+  Parameters: {"id"=>"logo"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.woff" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 23:15:17) [GET]
+
+ActionController::RoutingError (No route matches "/fonts/PT_Serif-Caption-Web-Regular.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#gallery (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+Rendering authentication/gallery
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/authentication/gallery]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+
+
+Processing AuthenticationController#images to png (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+  Parameters: {"id"=>"thumbnail-astronaut"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+  Parameters: {"id"=>"thumbnail-spacecraft"}
+  Parameters: {"id"=>"spaceshuttle-closeup"}
+  Parameters: {"id"=>"astronaut-large"}
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+  Parameters: {"id"=>"thumbnail-earth"}
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+  Parameters: {"id"=>"astronaut"}
+  Parameters: {"id"=>"earth"}
+  Parameters: {"id"=>"spacecraft-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+  Parameters: {"id"=>"thumbnail-craft"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+  Parameters: {"id"=>"space-shuttle"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#images to jpg (for 127.0.0.1 at 2013-01-16 23:15:21) [GET]
+  Parameters: {"id"=>"earth-small"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, blog, contact, gallery, and index):
+  
+
+Rendering rescues/layout (not_found)
