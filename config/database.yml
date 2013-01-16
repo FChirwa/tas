@@ -1,0 +1,30 @@
+production:
+  adapter: mysql2
+  Encoding: utf8
+  Reconnect: false
+  username: root
+  database: likuni
+  password: password
+  host: localhost
+  pool: 2000000
+
+development:
+  adapter: mysql2
+  Encoding: utf8
+  Reconnect: false
+  username: root
+  database: mwanza
+  password: password
+  host: localhost
+  timeout: 5000
+  pool: 2000000
+
+test: &TEST
+  adapter: mysql
+  database: root
+  username: tbart
+  password: your_password
+  host: localhost
+
+cucumber:
+  <<: *TEST

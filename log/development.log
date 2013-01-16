@@ -1,0 +1,209 @@
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2013-01-16 17:16:24) [GET]
+  [4;36;1mSCHEMA (235.3ms)[0m   [0;1mSHOW TABLES [0m
+  [4;35;1mSCHEMA (2.4ms)[0m   [0mSHOW TABLES [0m
+Completed in 412ms (View: 37, DB: 238) | 200 OK [http://0.0.0.0/rails/info/properties]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:21:21) [GET]
+Rendering authentication/index
+Completed in 44ms (View: 43, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:21:23) [GET]
+Rendering authentication/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:25:30) [GET]
+Rendering /authentication/index.html
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:25:32) [GET]
+Rendering /authentication/index.html
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:25:35) [GET]
+Rendering /authentication/index.html
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:26:22) [GET]
+
+ActionView::MissingTemplate (Missing template authentication/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:26:52) [GET]
+Rendering authentication/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 17:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/css/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:27:47) [GET]
+Rendering authentication/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 17:27:47) [GET]
+
+ActionController::RoutingError (No route matches "/css/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:27:48) [GET]
+Rendering authentication/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 17:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/css/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:30:07) [GET]
+Rendering authentication/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 17:30:07) [GET]
+
+ActionController::RoutingError (No route matches "/css/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:30:08) [GET]
+Rendering authentication/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-01-16 17:30:08) [GET]
+
+ActionController::RoutingError (No route matches "/css/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:36:33) [GET]
+Rendering authentication/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:36:40) [GET]
+Rendering authentication/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:37:58) [GET]
+Rendering authentication/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:38:05) [GET]
+Rendering authentication/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:41:07) [GET]
+Rendering authentication/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:48:05) [GET]
+Rendering authentication/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:48:07) [GET]
+Rendering authentication/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:49:01) [GET]
+Rendering authentication/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:50:49) [GET]
+Rendering authentication/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:50:55) [GET]
+Rendering authentication/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:52:36) [GET]
+Rendering authentication/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:52:38) [GET]
+Rendering authentication/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:53:20) [GET]
+Rendering authentication/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:53:21) [GET]
+Rendering authentication/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:54:00) [GET]
+Rendering authentication/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:54:30) [GET]
+Rendering authentication/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:54:32) [GET]
+Rendering authentication/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:55:04) [GET]
+Rendering authentication/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:55:38) [GET]
+Rendering authentication/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:56:31) [GET]
+Rendering authentication/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing AuthenticationController#index (for 127.0.0.1 at 2013-01-16 17:57:06) [GET]
+Rendering authentication/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
