@@ -5,6 +5,44 @@
 	<%= stylesheet_link_tag 'style' %>
 	<meta charset="UTF-8">
 	<title>Gallery - Mwasibale Motors</title>
+	<script language="JavaScript1.2">
+	  var howOften = 5;
+	  var current = 0;
+	  var ns6 = document.getElementById&&!document.all;
+
+	  var items = new Array();
+	  var m = 1;
+	  items[0]="<a href='link.htm' class='link'><img alt='image4145 (9K)' src=' /images/SAM_4145.JPG' width='200' height='200'/></a>";
+	  items[1]="<a href='link.htm' class='link'><img alt='image4146 (9K)' src='/images/SAM_4146.JPG' width='200' height='200'/></a>";
+	  items[2]="<a href='link.htm' class='link'><img alt='image4147 (9K)' src='/images/SAM_4147.JPG' width='200' height='200'/></a>";
+	  items[3]="<a href='link.htm' class='link'><img alt='image4148 (9K)' src='/images/SAM_4148.JPG' width='200' height='200'/></a>";
+	  items[4]="<a href='link.htm' class='link'><img alt='image4149 (9K)' src='/images/SAM_4149.JPG' width='200' height='200'/></a>";
+	  items[5]="<a href='link.htm' class='link'><img alt='image4150 (9K)' src='/images/SAM_4150.JPG' width='200' height='200'/></a>";
+	  items[6]="<a href='link.htm' class='link'><img alt='image4151 (9K)' src='/images/SAM_4151.JPG' width='200' height='200'/></a>";
+	  items[7]="<a href='link.htm' class='link'><img alt='image4152 (9K)' src='/images/SAM_4152.JPG' width='200' height='200'/></a>";
+	  items[8]="<a href='link.htm' class='link'><img alt='image4153 (9K)' src='/images/SAM_4153.JPG' width='200' height='200'/></a>";
+	  items[9]="<a href='link.htm' class='link'><img alt='image4154 (9K)' src='/images/SAM_4154.JPG' width='200' height='200'/></a>";
+	  items[10]="<a href='link.htm' class='link'><img alt='image4155 (9K)' src='/images/SAM_4155.JPG' width='200' height='200'/></a>";
+
+	  function rotater() {
+		  document.getElementById("placeholder").innerHTML = items[current];
+		  current = (current==items.length-1) ? 0 : current + 1;
+		  setTimeout("rotater()",howOften*1000);
+	}
+	function rotater() {
+    if(document.layers) {
+        document.placeholderlayer.document.write(items[current]);
+        document.placeholderlayer.document.close();
+    }
+    if(ns6)document.getElementById("placeholderdiv").innerHTML=items[current]
+        if(document.all)
+            placeholderdiv.innerHTML=items[current];
+
+    current = (current==items.length-1) ? 0 : current + 1;
+    setTimeout("rotater()",howOften*1000);
+}
+window.onload=rotater;
+	</script>
 	<style>
 	   #main{
 		text-align: left;
@@ -18,10 +56,6 @@
 <body>
 	<div id="header">
 		<div class="wrapper clearfix">
-		    <div id="main"><h2>Mwasibale Motors</h2></div>
-			<div id="logo">
-				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
-			</div>
 			<ul id="navigation">
 				<li class="selected">
 					<a href="/authentication">Home</a>
@@ -39,6 +73,9 @@
 					<a href="/authentication/contact">Contact Us</a>
 				</li>
 			</ul>
+		  <div id="logo">
+				<a href="index.html"><img src="/images/logo1.jpg" alt="LOGO" width="180" height="150"></a>
+			</div>
 		</div>
 	</div>
 	<div id="contents">
@@ -46,146 +83,63 @@
 			<div id="sidebar">
 				<ul>
 					<li>
-						<a href="blog.html"><img src="images/earth-small.jpg" alt="Img" height="154" width="213"></a>
+						<layer id="placeholderlayer"></layer><div id="placeholderdiv"></div>
 					</li>
 					<li>
-						<a href="blog.html"><img src="images/spaceshuttle-closeup.jpg" alt="Img" height="154" width="213"></a>
+						<layer id="placeholderlayer"></layer><div id="placeholderdiv"></div>
 					</li>
 				</ul>
 				<div class="click-here">
-					<h1>Lorem Ipsum Dolor!</h1>
-					<a href="index.html" class="btn1">Click Here!</a>
+					<h1>Promotion offers!</h1>
+					<a href="/authentication" class="btn2">Click Here!</a>
 				</div>
 			</div>
 			<div class="main">
 				<h1>Gallery</h1>
 				<div class="photos">
 					<div class="viewer">
-						<img src="images/astronaut-large.jpg" alt="Img" height="348" width="703">
+						<img src="/images/SAM_4227.JPG" alt="Img" height="348" width="703">
 					</div>
 					<ul>
 						<li>
-							<a href="gallery.html"><img src="images/thumbnail-astronaut.jpg" alt="Img" height="96" width="150"><span class="cover"></span></a>
+							<a href="gallery.html"><img src="/images/SAM_4141.JPG" alt="Img" height="96" width="150"><span class="cover"></span></a>
 						</li>
 						<li>
-							<a href="gallery.html"><img src="images/thumbnail-spacecraft.jpg" alt="Img" height="96" width="150"><span class="cover"></span></a>
+							<a href="gallery.html"><img src="/images/SAM_4142.JPG" alt="Img" height="96" width="150"><span class="cover"></span></a>
 						</li>
 						<li>
-							<a href="gallery.html"><img src="images/thumbnail-earth.jpg" alt="Img" height="96" width="150"><span class="cover"></span></a>
+							<a href="gallery.html"><img src="/images/SAM_4143.JPG" alt="Img" height="96" width="150"><span class="cover"></span></a>
 						</li>
 						<li>
-							<a href="gallery.html"><img src="images/thumbnail-craft.jpg" alt="Img" height="96" width="150"><span class="cover"></span></a>
+							<a href="gallery.html"><img src="/images/SAM_4144.JPG" alt="Img" height="96" width="150"><span class="cover"></span></a>
 						</li>
 					</ul>
 				</div>
-				<ul class="pagination">
-					<li>
-						<a href="gallery.html">&lt;&lt;</a>
-					</li>
-					<li>
-						<a href="gallery.html">First</a>
-					</li>
-					<li class="selected">
-						<a href="gallery.html">1</a>
-					</li>
-					<li>
-						<a href="gallery.html">2</a>
-					</li>
-					<li>
-						<a href="gallery.html">3</a>
-					</li>
-					<li>
-						<a href="gallery.html">4</a>
-					</li>
-					<li>
-						<a href="gallery.html">5</a>
-					</li>
-					<li>
-						<a href="gallery.html">6</a>
-					</li>
-					<li>
-						<a href="gallery.html">7</a>
-					</li>
-					<li>
-						<a href="gallery.html">8</a>
-					</li>
-					<li>
-						<a href="gallery.html">9</a>
-					</li>
-					<li>
-						<a href="gallery.html">10</a>
-					</li>
-					<li>
-						<a href="gallery.html">11</a>
-					</li>
-					<li>
-						<a href="gallery.html">12</a>
-					</li>
-					<li>
-						<a href="gallery.html">13</a>
-					</li>
-					<li>
-						<a href="gallery.html">14</a>
-					</li>
-					<li>
-						<a href="gallery.html">15</a>
-					</li>
-					<li>
-						<a href="gallery.html">16</a>
-					</li>
-					<li>
-						<a href="gallery.html">17</a>
-					</li>
-					<li>
-						<a href="gallery.html">18</a>
-					</li>
-					<li>
-						<a href="gallery.html">19</a>
-					</li>
-					<li>
-						<a href="gallery.html">20</a>
-					</li>
-					<li>
-						<a href="gallery.html">Last</a>
-					</li>
-					<li>
-						<a href="gallery.html">&gt;&gt;</a>
-					</li>
-				</ul>
-				<!-- /.pagination -->
+				<div style="color:white;">
+				  <p>
+					Have a feeling of our work in pictures. you may also give us <a href="contact">feedback</a>
+				  </p>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div id="footer">
 		<ul id="featured" class="wrapper clearfix">
 			<li>
-				<img src="images/astronaut.jpg" alt="Img" height="204" width="220">
-				<h3><a href="blog.html">Category 1</a></h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor. Phasellus commodo semper vehicula.
-				</p>
+				<img src="/images/beating2_after.jpg" alt="Img" height="204" width="220">
+				<h3><a href="blog.html">Panel Beating</a></h3>
+				
 			</li>
 			<li>
-				<img src="images/earth.jpg" alt="Img" height="204" width="220">
-				<h3><a href="blog.html">Category 2</a></h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor. Phasellus commodo semper vehicula.
-				</p>
+				<img src="/images/painting1_after.jpg" alt="Img" height="204" width="220">
+				<h3><a href="blog.html">Spray Painting</a></h3>
+				
 			</li>
 			<li>
-				<img src="images/spacecraft-small.jpg" alt="Img" height="204" width="220">
-				<h3><a href="blog.html">Category 3</a></h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor. Phasellus commodo semper vehicula.
-				</p>
+				<img src="/images/assembly4.jpg" alt="Img" height="204" width="220">
+				<h3><a href="blog.html">Motor Assembly</a></h3>
 			</li>
-			<li>
-				<img src="images/space-shuttle.jpg" alt="Img" height="204" width="220">
-				<h3><a href="blog.html">Category 4</a></h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor. Phasellus commodo semper vehicula.
-				</p>
-			</li>
+			
 		</ul>
 		<div class="body">
 			<div class="wrapper clearfix">
@@ -194,13 +148,16 @@
 						<h4>Social</h4>
 						<ul>
 							<li>
-								<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank">Google +</a>
+								<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank">Add Google + circles</a>
 							</li>
 							<li>
-								<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank">Facebook</a>
+								<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank">Like us on Facebook</a>
 							</li>
 							<li>
-								<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank">Youtube</a>
+								<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank">Find us on Youtube</a>
+							</li>
+							<li>
+								<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank">Follow us on Twitter</a>
 							</li>
 						</ul>
 					</div>
@@ -208,29 +165,29 @@
 						<h4>Heading placeholder</h4>
 						<ul>
 							<li>
-								<a href="index.html">Link Title 1</a>
+								<a href="/authentication/index/index.html">Link Title 1</a>
 							</li>
 							<li>
-								<a href="index.html">Link Title 2</a>
+								<a href="/authentication/index/index.html">Link Title 2</a>
 							</li>
 							<li>
-								<a href="index.html">Link Title 3</a>
+								<a href="/authentication/index/index.html">Link Title 3</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div id="newsletter">
-					<h4>Newsletter</h4>
+					<h4>Issues</h4>
 					<p>
-						Sign up for Our Newsletter
+						Sign in to log your issues
 					</p>
-					<form action="index.html" method="post">
+					<form action="/authentication" method="post">
 						<input type="text" value="">
-						<input type="submit" value="Sign Up!">
+						<input type="submit" value="Sign In!">
 					</form>
 				</div>
 				<p class="footnote">
-					© Copyright © 2023.Company name all rights reserved
+					© Copyright © <%= Date.today.year %>.	Mwasibale Motors. All rights reserved
 				</p>
 			</div>
 		</div>

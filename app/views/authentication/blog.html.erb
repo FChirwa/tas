@@ -5,6 +5,20 @@
 	<%= stylesheet_link_tag 'style' %>
 	<meta charset="UTF-8">
 	<title>Blog - Mwasibale Motors</title>
+	<script language="JavaScript1.2">
+	  function addblog(){
+		blogger = document.getElementById("blogger");
+		blogger.innerHTML ="<table><tr valign ='top'><td><label>Enter your full name here.</label></td><td><input type='text' name='name' value='Name'/></td></tr>"
+		blogger.innerHTML +="<tr valign ='top'><td><label>Enter blog title</label></td><td><input type='text' value='Title' name='title'/></td></tr>"
+		blogger.innerHTML +="<tr valign ='top'><td><label>Enter blog message</label></td><td><textarea name='message'>Massage</textarea></td></tr>"
+		blogger.innerHTML +="<tr valign ='top'><td  colspan='2'><input type='submit' value='Share' name='share'/></td></tr></table>"
+	  }
+	   function add(){
+		log = document.getElementById("log");
+		log.innerHTML ="<form action ='blog?new=#{params[:id]}'><li><label>Enter your comment</label><br><textarea name='message'></textarea></li>"
+		log.innerHTML +="<li><input type='submit' value='Comment' name='share'/></li></form>"
+	  }
+	</script>
 	<style>
 	   #main{
 		text-align: left;
@@ -13,23 +27,23 @@
 		top: 0px;
 		left: 20%;
       }
+	  textarea{
+		height:150px;
+		width:200px;
+	  }
 	</style>
 </head>
 <body>
 	<div id="header">
 		<div class="wrapper clearfix">
-			<div id="main"><h2>Mwasibale Motors</h2></div>
-			<div id="logo">
-				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
-			</div>
 			<ul id="navigation">
-				<li class="selected">
+				<li >
 					<a href="/authentication">Home</a>
 				</li>
 				<li>
 					<a href="/authentication/about">About</a>
 				</li>
-				<li>
+				<li class="selected">
 					<a href="/authentication/blog">Blog</a>
 				</li>
 				<li>
@@ -39,9 +53,13 @@
 					<a href="/authentication/contact">Contact Us</a>
 				</li>
 			</ul>
+		  <div id="logo">
+				<a href="index.html"><img src="/images/logo1.jpg" alt="LOGO"  width="200" height="200"></a>
+			</div>
 		</div>
 	</div>
 	<div id="contents">
+	  <div id ="adbox">
 		<div class="wrapper clearfix">
 			<div id="sidebar">
 				<ul>
@@ -53,122 +71,47 @@
 					</li>
 				</ul>
 				<div class="click-here">
-					<h1>Lorem Ipsum Dolor!</h1>
-					<a href="index.html" class="btn1">Click Here!</a>
+					<h1>Add your blog</h1>
+					<a href="#" class="btn1" onclick="addblog();">Click Here!</a>
 				</div>
 			</div>
 			<div class="main">
-				<h1>Blog</h1>
+				<h1  style="color:blue;">Blog</h1>
 				<ul class="list">
-					<li>
-						<span class="time">01-01-2012</span>
-						<h4>Blog Title One</h4>
+				  <% #raise @message.to_yaml
+					if ! @message.nil? %>
+					 <li>  <p>At <%=  @message.first.created_at.strftime("%d-%m-%Y") %> </p>
 						<p>
-							This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your 
-							own text.This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with 
-							your own text.
+							<%=  @message.first.title %>
 						</p>
-						<a href="blog.html" class="more">Read more&gt;&gt;</a>
+						<p><%=  @message.first.message %></p>
+						<a href="/authentication/blog?id=<%=  @message.first.customer_id %>" class="more">Read more&gt;&gt;</a>
 					</li>
-					<li>
-						<span class="time">01-01-2012</span>
-						<h4>Blog Title One</h4>
+					 <li>
+					   <p><a class="btn1" onclick="add();"> <%=  @page.length %>  Comments available </a> </p>
+					 </li>
+				  <%end%>
+				  <%  @page.each do |cust| %>
+				  <li>  <p>At <%=  cust.created_at.strftime("%d-%m-%Y") %> </p>
 						<p>
-							This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your 
-							own text.This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with 
-							your own text.
+							<%=  cust.title if  @message.nil? %>
 						</p>
-						<a href="blog.html" class="more">Read more&gt;&gt;</a>
+						<p><%=  cust.message %></p>
+						<a href="/authentication/blog?id=<%=  cust.customer_id %>" class="more">Read more&gt;&gt;</a>
 					</li>
-					<li>
-						<span class="time">01-01-2012</span>
-						<h4>Blog Title One</h4>
-						<p>
-							This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your 
-							own text.This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with 
-							your own text.
-						</p>
-						<a href="blog.html" class="more">Read more&gt;&gt;</a>
-					</li>
+					<% end %>
+					<div id="log">
+
+					</div>
 				</ul>
-				<ul class="pagination">
-					<li>
-						<a href="blog.html">&lt;&lt;</a>
-					</li>
-					<li>
-						<a href="blog.html">First</a>
-					</li>
-					<li class="selected">
-						<a href="blog.html">1</a>
-					</li>
-					<li>
-						<a href="blog.html">2</a>
-					</li>
-					<li>
-						<a href="blog.html">3</a>
-					</li>
-					<li>
-						<a href="blog.html">4</a>
-					</li>
-					<li>
-						<a href="blog.html">5</a>
-					</li>
-					<li>
-						<a href="blog.html">6</a>
-					</li>
-					<li>
-						<a href="blog.html">7</a>
-					</li>
-					<li>
-						<a href="blog.html">8</a>
-					</li>
-					<li>
-						<a href="blog.html">9</a>
-					</li>
-					<li>
-						<a href="blog.html">10</a>
-					</li>
-					<li>
-						<a href="blog.html">11</a>
-					</li>
-					<li>
-						<a href="blog.html">12</a>
-					</li>
-					<li>
-						<a href="blog.html">13</a>
-					</li>
-					<li>
-						<a href="blog.html">14</a>
-					</li>
-					<li>
-						<a href="blog.html">15</a>
-					</li>
-					<li>
-						<a href="blog.html">16</a>
-					</li>
-					<li>
-						<a href="blog.html">17</a>
-					</li>
-					<li>
-						<a href="blog.html">18</a>
-					</li>
-					<li>
-						<a href="blog.html">19</a>
-					</li>
-					<li>
-						<a href="blog.html">20</a>
-					</li>
-					<li>
-						<a href="blog.html">Last</a>
-					</li>
-					<li>
-						<a href="blog.html">&gt;&gt;</a>
-					</li>
-				</ul>
-				<!-- /.pagination -->
 			</div>
-		</div>
+		  
 	</div>
+	</div>
+	<form action='add_blog' method=''>
+		<div id="blogger" class="wrapper">
+		</div>
+	</form>
 	<div id="footer">
 		<ul id="featured" class="wrapper clearfix">
 			<li>

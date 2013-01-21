@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <!-- Website template by freewebsitetemplates.com -->
 <html>
-<head>
+  <head>
 	<%= stylesheet_link_tag 'style' %>
 	<meta charset="UTF-8">
 	<title>About - Mwasibale Motors</title>
+	<script language="JavaScript1.2">
+
+var howOften = 5; //number often in seconds to rotate
+var current = 0;
+var current_1 = 0//start the counter at 0
+var current_3 = 0
+var ns6 = document.getElementById&&!document.all; //detect netscape 6
+
+// place your images, text, etc in the array elements here
+var items = new Array();
+    items[0]="<a href='link.htm' class='link'><img alt='image0 (9K)' src=' /images/beating1_before.jpg' width='100' height='100'/><br>Before <br><%= @item.first %></a>"; //a linked image
+    items[1]="<a href='link.htm' class='link'><img alt='image1 (9K)' src='/images/beating1_after.jpg' width='100' height='100' /><br>After<br><%= @item.last %></a>"; //a linked image
+	
+var items_1 = new Array();
+    items_1[0]="<a href='link.htm' class='link'><img alt='image2 (9K)' src=' /images/painting1_before.jpg' widith='100' height='100'/><br>Before<br><%= @item_1.first %></a>"; //a linked image
+	items_1[1]="<a href='link.htm' class='link'><img alt='image3 (9K)' src='/images/painting1_after.jpg' widith='100' height='100'/><br>After<br><%= @item_1.last %></a>"; //a linked image
+
+var items_3 = new Array();
+    items_3[0]="<a href='link.htm' class='link'><img alt='image2 (9K)' src=' /images/assembly1.jpg' widith='100' height='100'/><br><%= @item_3.first %></a>"; //a linked image
+	items_3[1]="<a href='link.htm' class='link'><img alt='image3 (9K)' src='/images/assembly2.jpg' widith='100' height='100'/><br><%= @item_3.last %></a>";
+
+function rotater() {
+    document.getElementById("placeholder").innerHTML = items[current];
+    current = (current==items.length-1) ? 0 : current + 1;
+	document.getElementById("placeholder1").innerHTML = items_1[current_1];
+    current_1 = (current_1==items_1.length-1) ? 0 : current_1 + 1;
+	document.getElementById("placeholder3").innerHTML = items_3[current_3];
+    current_3 = (current_3==items_3.length-1) ? 0 : current_3 + 1;
+    setTimeout("rotater()",howOften*1000);
+}
+
+function rotater() {
+    if(document.layers) {
+        document.placeholderlayer.document.write(items[current]);
+		document.placeholderlayer.document.write(items_1[current_1]);
+		document.placeholderlayer.document.write(items_1[current_2]);
+		document.placeholderlayer.document.write(items_1[current_3]);
+        document.placeholderlayer.document.close();
+    }
+    if(ns6)document.getElementById("placeholderdiv").innerHTML=items[current]
+        if(document.all)
+            placeholderdiv.innerHTML=items[current];
+    if(ns6)document.getElementById("placeholderdiv1").innerHTML=items_1[current_1]
+        if(document.all)
+            placeholderdiv.innerHTML=items_1[current_1];
+	if(ns6)document.getElementById("placeholderdiv3").innerHTML=items_3[current_3]
+        if(document.all)
+            placeholderdiv.innerHTML=items_3[current_3];
+
+    current = (current==items.length-1) ? 0 : current + 1;
+	current_1 = (current_1==items_1.length-1) ? 0 : current_1 + 1;
+	current_3 = (current_3==items_3.length-1) ? 0 : current_3 + 1;//increment or reset
+    setTimeout("rotater()",howOften*1000);
+}
+window.onload=rotater;
+//-->
+</script>
 	<style>
-	   #main{
+	  #main{
 		text-align: left;
 		font-family: Arial,Helvetica,sans-serif;
 		color: white;
@@ -14,95 +71,139 @@
 		left: 20%;
       }
 	</style>
-</head>
-<body>
+  </head>
+  <body>
 	<div id="header">
-		<div class="wrapper clearfix">
-			<div id="main"><h2>Mwasibale Motors</h2></div>
-			<div id="logo">
-				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
-			</div>
-			<ul id="navigation">
-				<li class="selected">
-					<a href="/authentication">Home</a>
-				</li>
-				<li>
-					<a href="/authentication/about">About</a>
-				</li>
-				<li>
-					<a href="/authentication/blog">Blog</a>
-				</li>
-				<li>
-					<a href="/authentication/gallery">Gallery</a>
-				</li>
-				<li>
-					<a href="/authentication/contact">Contact Us</a>
-				</li>
-			</ul>
+	  <div class="wrapper clearfix">
+		<ul id="navigation">
+		  <li >
+			<a href="/authentication">Home</a>
+		  </li>
+		  <li class="selected">
+			<a href="/authentication/about">About</a>
+		  </li>
+		  <li>
+			<a href="/authentication/blog">Blog</a>
+		  </li>
+		  <li>
+			<a href="/authentication/gallery">Gallery</a>
+		  </li>
+		  <li>
+			<a href="/authentication/contact">Contact Us</a>
+		  </li>
+		</ul>
+		<div id="logo">
+		  <a href="index.html"><img src="/images/logo1.jpg" alt="LOGO" width="200" height="200"></a>
 		</div>
+	  </div>
 	</div>
 	<div id="contents">
+	  <div id="adbox">
 		<div class="wrapper clearfix">
-			<div id="sidebar">
-				<ul>
-					<li>
-						<a href="blog.html"><img src="images/earth-small.jpg" alt="Img" height="154" width="213"></a>
-					</li>
-					<li>
-						<a href="blog.html"><img src="images/spaceshuttle-closeup.jpg" alt="Img" height="154" width="213"></a>
-					</li>
-				</ul>
-				<div class="click-here">
-					<h1>Lorem Ipsum Dolor!</h1>
-					<a href="index.html" class="btn1">Click Here!</a>
-				</div>
+		  <div id="sidebar">
+			<b style="color:#176eb0;">The company currently offers the following services:</b>
+			<ol>
+			  <li>
+				<a href="#">Motor vehicle service and general maintenance</a>
+			  </li>
+			  <li>
+				<a href="#">Motorcycle service, maintenance and assembling</a>
+			  </li>
+			  <li><a href="#">Panel beating and spray  painting</a>
+			  </li>
+			  <li><a href="#">Chassis straightening</a>
+			  </li>
+			  <li><a href="#">Arc welding, gas welding and other steel works</a>
+			  </li>
+			  <li><a href="#">Vehicle registration ( C.O. F. and Road Tax Certificates)</a>
+			  </li>
+			  <li><a href="#">Car wash and car cleaning services – polishing, car seats, interior carpets</a>
+			  </li>
+			  <li><a href="#">Car sales and car breaking services</a>
+			  </li>
+			  <li><a href="#">Battery charge</a>
+			  </li>
+			  <li><a href="#">Generator and Loan mower repairs and services</a>
+			  </li>
+			  <li><a href="#">Vehicle tow services</a>
+			  </li>
+			</ol>
+			<div class="click-here">
+				<h1>Promotion offers!</h1>
+				<a href="/authentication" class="btn2">Click Here!</a>
 			</div>
-			<div class="main">
-				<h1>About Us</h1>
-				<p>
-					<b>We Have Free Templates for Everyone</b> Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What's more, they're absolutely free! You can do a lot with them. You can modify them. You can use them to design websites for clients, so long as you agree with the <a href="http://www.freewebsitetemplates.com/about/terms/">Terms of Use</a>. You can even remove all our links if you want to.
-				</p>
-				<p>
-					<b>We Have More Templates for You</b> Looking for more templates? Just browse through all our <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> and find what you're looking for. But if you don't find any website template you can use, you can try our <a href="http://www.freewebsitetemplates.com/freewebdesign/">Free Web Design</a> service and tell us all about it. Maybe you're looking for something different, something special. And we love the challenge of doing something different and something special.
-				</p>
-				<p>
-					<b>Be Part of Our Community</b> If you're experiencing issues and concerns about this website template, join the discussion <a href="http://www.freewebsitetemplates.com/forums/">on our forum</a> and meet other people in the community who share the same interests with you.
-				</p>
-				<p>
-					<b>Template details</b> Design version 3<br> Code version 2<br> Website Template details, discussion and updates for this <a href="http://www.freewebsitetemplates.com/discuss/astronomywebsitetemplate/">Astronomy Website Template</a>.<br> Website Template design by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a>.<br><br> Please feel free to remove some or all the text and links of this page and replace it with your own About content.
-				</p>
-			</div>
+		  </div>
+		  <div class="main">
+			<h1 style="color:blue;">About Us</h1>
+			<p>
+			  <b>Our Mission</b> To provide superb services to all our valued clients and remain competitive on the domestic market,
+			  whilst increasing the company’s turn over.
+			</p>
+			<p>
+			  <b>Our Vision</b> To be highly competitive, efficient, credible and effective in all areas of our operations.
+			</p>
+			<p>
+			  <b>Core Values</b>
+			</p>
+			<table style="color:#176eb0;">
+			  <tr valign ="top" >
+				<td>Caring:
+				</td>
+				<td>
+				  We care deeply for our clients and ensure the existing relationship is
+				  maintained  with sincere and utmost  professionalism that  reflect  the kind
+				  of service offered at all times
+				</td>
+			  </tr>
+			  <tr valign ="top">
+				<td>
+				  Excellence:
+				</td>
+				<td>
+				  We strive for excellence, consistency and challenge ourselves
+				  to achieve the highest standards regardless of
+				  economic impulses
+				</td>
+			  </tr>
+			  <tr valign ="top">
+				<td>
+				  Respect:
+				</td>
+				<td>
+					We believe each individual and the environment as a whole
+					deserves an equal and well leveled playing  field regardless
+					of colour, creed and political affiliations
+				</td>
+			  </tr>
+			  <tr valign ="top">
+				<td>
+				  Integrity:
+				</td>
+				<td>
+				  We are passionate about the principles of honesty , fairness,
+                  accountability and transparency in all our dealings, and
+				  always ensure that our charges are uniform across the board.
+				</td>
+			  </tr>
+			</table>
+		  </div>
 		</div>
+	  </div>
 	</div>
 	<div id="footer">
 		<ul id="featured" class="wrapper clearfix">
 			<li>
-				<img src="images/astronaut.jpg" alt="Img" height="204" width="220">
-				<h3><a href="blog.html">Category 1</a></h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor. Phasellus commodo semper vehicula.
-				</p>
+				<h3><a href="/authentication/index/blog.html">Panel Beating</a></h3>
+				<layer id="placeholderlayer"></layer><div id="placeholderdiv"></div>
+			</li>
+
+			<li>
+				<h3><a href="/authentication/index/blog.html">Spray Painting</a></h3>
+				<layer id="placeholderlayer1"></layer><div id="placeholderdiv1"></div>
 			</li>
 			<li>
-				<img src="images/earth.jpg" alt="Img" height="204" width="220">
-				<h3><a href="blog.html">Category 2</a></h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor. Phasellus commodo semper vehicula.
-				</p>
-			</li>
-			<li>
-				<img src="images/spacecraft-small.jpg" alt="Img" height="204" width="220">
-				<h3><a href="blog.html">Category 3</a></h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor. Phasellus commodo semper vehicula.
-				</p>
-			</li>
-			<li>
-				<img src="images/space-shuttle.jpg" alt="Img" height="204" width="220">
-				<h3><a href="blog.html">Category 4</a></h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor. Phasellus commodo semper vehicula.
-				</p>
+				<h3><a href="/authentication/index/blog.html">Motor Assembly</a></h3>
+				<layer id="placeholderlayer3"></layer><div id="placeholderdiv3"></div>
 			</li>
 		</ul>
 		<div class="body">
@@ -112,13 +213,16 @@
 						<h4>Social</h4>
 						<ul>
 							<li>
-								<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank">Google +</a>
+								<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank">Add Google + circles</a>
 							</li>
 							<li>
-								<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank">Facebook</a>
+								<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank">Like us on Facebook</a>
 							</li>
 							<li>
-								<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank">Youtube</a>
+								<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank">Find us on Youtube</a>
+							</li>
+							<li>
+								<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank">Follow us on Twitter</a>
 							</li>
 						</ul>
 					</div>
@@ -126,29 +230,29 @@
 						<h4>Heading placeholder</h4>
 						<ul>
 							<li>
-								<a href="index.html">Link Title 1</a>
+								<a href="/authentication/index/index.html">Link Title 1</a>
 							</li>
 							<li>
-								<a href="index.html">Link Title 2</a>
+								<a href="/authentication/index/index.html">Link Title 2</a>
 							</li>
 							<li>
-								<a href="index.html">Link Title 3</a>
+								<a href="/authentication/index/index.html">Link Title 3</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div id="newsletter">
-					<h4>Newsletter</h4>
+					<h4>Issues</h4>
 					<p>
-						Sign up for Our Newsletter
+						Sign in to log your issues
 					</p>
-					<form action="index.html" method="post">
+					<form action="/authentication" method="post">
 						<input type="text" value="">
-						<input type="submit" value="Sign Up!">
+						<input type="submit" value="Sign In!">
 					</form>
 				</div>
 				<p class="footnote">
-					© Copyright © 2023.Company name all rights reserved
+					© Copyright © <%= Date.today.year %>.	Mwasibale Motors. All rights reserved
 				</p>
 			</div>
 		</div>

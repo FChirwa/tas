@@ -10,34 +10,27 @@
 var howOften = 5; //number often in seconds to rotate
 var current = 0;
 var current_1 = 0//start the counter at 0
-var current_2 = 0
 var current_3 = 0
 var ns6 = document.getElementById&&!document.all; //detect netscape 6
 
 // place your images, text, etc in the array elements here
 var items = new Array();
-    items[0]="<a href='link.htm' class='link'><img alt='image0 (9K)' src=' images/thumbnail-astronaut.jpg' /><br>Before <br><%= @item.first %></a>"; //a linked image
-    items[1]="<a href='link.htm' class='link'><img alt='image1 (9K)' src='/images/thumbnail-earth.jpg' /><br>After<br><%= @item.last %></a>"; //a linked image
-
+    items[0]="<a href='link.htm' class='link'><img alt='image0 (9K)' src=' images/beating1_before.jpg' width='100' height='100'/><br>Before <br><%= @item.first %></a>"; //a linked image
+    items[1]="<a href='link.htm' class='link'><img alt='image1 (9K)' src='/images/beating1_after.jpg' width='100' height='100' /><br>After<br><%= @item.last %></a>"; //a linked image
+	
 var items_1 = new Array();
-    items_1[0]="<a href='link.htm' class='link'><img alt='image2 (9K)' src=' images/thumbnail-spacecraft.jpg'/><br>Before<br><%= @item_1.first %></a>"; //a linked image
-	items_1[1]="<a href='link.htm' class='link'><img alt='image3 (9K)' src='/images/thumbnail-craft.jpg'/><br>After<br><%= @item_1.last %></a>"; //a linked image
-
-var items_2 = new Array();
-    items_2[0]="<a href='link.htm' class='link'><img alt='image2 (9K)' src=' images/thumbnail-earth.jpg'/><br>Before<br><%= @item_2.first %></a>"; //a linked image
-	items_2[1]="<a href='link.htm' class='link'><img alt='image3 (9K)' src='/images/thumbnail-astronaut.jpg'/><br>After<br><%= @item_2.last %></a>";
+    items_1[0]="<a href='link.htm' class='link'><img alt='image2 (9K)' src=' images/painting1_before.jpg' widith='100' height='100'/><br>Before<br><%= @item_1.first %></a>"; //a linked image
+	items_1[1]="<a href='link.htm' class='link'><img alt='image3 (9K)' src='/images/painting1_after.jpg' widith='100' height='100'/><br>After<br><%= @item_1.last %></a>"; //a linked image
 
 var items_3 = new Array();
-    items_3[0]="<a href='link.htm' class='link'><img alt='image2 (9K)' src=' images/thumbnail-craft.jpg'/><br>Before<br><%= @item_3.first %></a>"; //a linked image
-	items_3[1]="<a href='link.htm' class='link'><img alt='image3 (9K)' src='/images/thumbnail-spacecraft.jpg'/><br>After<br><%= @item_3.last %></a>";
+    items_3[0]="<a href='link.htm' class='link'><img alt='image2 (9K)' src=' images/assembly1.jpg' widith='100' height='100'/><br><%= @item_3.first %></a>"; //a linked image
+	items_3[1]="<a href='link.htm' class='link'><img alt='image3 (9K)' src='/images/assembly2.jpg' widith='100' height='100'/><br><%= @item_3.last %></a>";
 
 function rotater() {
     document.getElementById("placeholder").innerHTML = items[current];
     current = (current==items.length-1) ? 0 : current + 1;
 	document.getElementById("placeholder1").innerHTML = items_1[current_1];
     current_1 = (current_1==items_1.length-1) ? 0 : current_1 + 1;
-	document.getElementById("placeholder2").innerHTML = items_2[current_2];
-    current_2 = (current_2==items_2.length-1) ? 0 : current_2 + 1;
 	document.getElementById("placeholder3").innerHTML = items_3[current_3];
     current_3 = (current_3==items_3.length-1) ? 0 : current_3 + 1;
     setTimeout("rotater()",howOften*1000);
@@ -57,16 +50,12 @@ function rotater() {
     if(ns6)document.getElementById("placeholderdiv1").innerHTML=items_1[current_1]
         if(document.all)
             placeholderdiv.innerHTML=items_1[current_1];
-	if(ns6)document.getElementById("placeholderdiv2").innerHTML=items_2[current_2]
-        if(document.all)
-            placeholderdiv.innerHTML=items_2[current_2];
 	if(ns6)document.getElementById("placeholderdiv3").innerHTML=items_3[current_3]
         if(document.all)
             placeholderdiv.innerHTML=items_3[current_3];
 
     current = (current==items.length-1) ? 0 : current + 1;
 	current_1 = (current_1==items_1.length-1) ? 0 : current_1 + 1;
-	current_2 = (current_2==items_2.length-1) ? 0 : current_2 + 1;
 	current_3 = (current_3==items_3.length-1) ? 0 : current_3 + 1;//increment or reset
     setTimeout("rotater()",howOften*1000);
 }
@@ -88,7 +77,7 @@ window.onload=rotater;
 	  a {
 		height:500;
 		text-decoration:none;
-	  }
+	  }add_blog
 	  .link{
 		color:black;
 	  }
@@ -96,18 +85,16 @@ window.onload=rotater;
 		padding: 2px 2px 2px 2px;
 		margin: 2%;
 	  }
+	  #placeholderlayer2{
+		display:none;
+	  }
 	</style>
 </head>
 <body>
 	<div id="header">
 	    
 		<div class="wrapper clearfix">
-		   <div id="main"><h2>Mwasibale Motors</h2></div>
-			<div id="logo">
-				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
-			</div>
-		  
-			<ul id="navigation">
+		  <ul id="navigation">
 				<li class="selected">
 					<a href="/authentication">Home</a>
 				</li>
@@ -127,17 +114,33 @@ window.onload=rotater;
 					<a href="/admin">Admin</a>
 				</li>
 			</ul>
+			<div id="logo">
+			  <a href="index.html"><img src="images/logo1.jpg" alt="LOGO" width="200" height="200"></a>
+			</div>
+		  
+			
 		</div>
 	</div>
 	<div id="contents">
 		<div id="adbox">
 			<div class="wrapper clearfix">
 				<div class="info">
-					<h1>The caring car owner's choice</h1>
+				  <h1 style="color:blue;">Mwasibale Motors</h1>
+				  <h2>The caring car owner's choice</h2>
 					<p>
 						We offer most affordable prices while maintaing the best standards for you our beloved customers.
 						Take a tour of our services and have the appreciation of the work of hand being done by our personnel.
 					</p>
+				</div>
+			  <div class="info1" align="left">
+				  In Area 47 Sector 5, Adjacent to Zodiac Broadcasting Station opposite Masa maize mill
+				  <address>
+					P.O Box 40500<br>
+					Kanengo <br>
+					Lilongwe 4 <br>
+					Phones: +265(0) 881 086 660 <br>
+					Email: mwasibalemotors412@gmail.com <br>
+				  </address>
 				</div>
 			</div>
 			<div class="highlight">
@@ -176,15 +179,11 @@ window.onload=rotater;
 			</li>
 		
 			<li>
-				<h3><a href="/authentication/index/blog.html">Tyre Alignment</a></h3>
+				<h3><a href="/authentication/index/blog.html">Spray Painting</a></h3>
 				<layer id="placeholderlayer1"></layer><div id="placeholderdiv1"></div>
 			</li>
 			<li>
-				<h3><a href="/authentication/index/blog.html">Auto-electric Mechanic</a></h3>
-				<layer id="placeholderlayer2"></layer><div id="placeholderdiv2"></div>
-			</li>
-			<li>
-				<h3><a href="/authentication/index/blog.html">Other</a></h3>
+				<h3><a href="/authentication/index/blog.html">Motor Assembly</a></h3>
 				<layer id="placeholderlayer3"></layer><div id="placeholderdiv3"></div>
 			</li>
 		</ul>
